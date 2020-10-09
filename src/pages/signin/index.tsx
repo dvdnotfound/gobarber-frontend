@@ -17,9 +17,13 @@ const SignIn: React.FC = () => (
         <input type="password" placeholder="Senha" />
 
         <button type="submit">Entrar</button>
-        <FiLogIn />
+
         <a href="forgot">Esqueci minha senha</a>
       </form>
+      <a href="login">
+        <FiLogIn />
+        Criar Conta
+      </a>
     </Content>
     <Background />
   </Container>

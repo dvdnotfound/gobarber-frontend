@@ -12,6 +12,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   place-content: center;
 
   width: 100%;
@@ -54,6 +55,7 @@ export const Content = styled.div`
       font-weight: 500;
       margin-top: 16px;
       transition: background-color 0.2s;
+
       &:hover {
         background: ${shade(0.2, '#ff9000')};
       }
@@ -70,24 +72,24 @@ export const Content = styled.div`
         color: ${shade(0.2, '#f4ede8')};
       }
     }
+  }
 
-    > a {
-      color: #ff9000;
-      display: block;
-      margin-top: 24px;
-      text-decoration: none;
-      transition: color 0.2s;
+  > a {
+    color: #ff9000;
+    display: block;
+    margin-top: 24px;
+    text-decoration: none;
+    transition: color 0.2s;
 
-      display: flex;
-      align-items: center;
+    display: flex;
+    align-items: center;
 
-      svg {
-        margin-right: 16px;
-      }
+    svg {
+      margin-right: 16px;
+    }
 
-      &:hover {
-        color: ${shade(0.2, '#ff9000')};
-      }
+    &:hover {
+      color: ${shade(0.2, '#ff9000')};
     }
   }
 `;
